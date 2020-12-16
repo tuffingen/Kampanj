@@ -26,7 +26,7 @@ nav a{
 }
 nav{
     float:right;
-    background-color: #FBFBFB;
+    background-color: #f7f7f7;
     width: 100%;
     top: 0;
     margin: 0;
@@ -45,13 +45,15 @@ nav{
     position: center;
     float: left;
     padding-left: 220px;
+    padding-top: 29px;
 }
 
 #bild{
     background: url(/survey-1594962_1920.jpg) no-repeat 0 -100px;
-    min-height: 900px;
+    min-height: 830px;
     border-bottom: solid #096FAE 4px;
     margin-left: 0;
+    
     
 }
 
@@ -61,13 +63,24 @@ nav{
     float: left;
     font-size: 40px;
     line-height: 25px;
-    padding-top: 120px;
+    padding-top: 175px;
     background-color: #64bff717;
-    padding-bottom: 3%;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-bottom: 8%;
+    padding-right: 140px;
+    padding-left: 140px;
+    color: #252525;
+    margin-top: 0;
+    
 }
 .highlight{
     color: #096FAE;
 }
 
+li a:hover{
+    color: #096FAE;
+}
+
+.high{
+    font-size: 27px;
+    color: #252525c0;
+}
