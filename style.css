@@ -1,86 +1,154 @@
+
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    
-
-}
-nav ul{
     padding: 0;
-    margin: 0;
-    list-style: none;
-}
-nav li{
-    display: inline-block;
-    margin-right: 90px;
-    margin-left: 180px;
-    padding-top: 42px;
-    position: relative;
-    margin-bottom: 0;
-    padding-top: 43px;
-    
-}
-nav a{
-    color: #252525;
-    font-size: 18px;
-    
+
 }
 nav{
-    float:right;
-    background-color: #f7f7f7;
-    width: 100%;
-    top: 0;
-    margin: 0;
-    height: 100px;
     position: fixed;
-    box-shadow: 0px 10px 15px -22px rgb(0, 0, 0);
-}
-.navbar{
     top: 0;
-
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+    
 }
-.logo img{
-    width: 200px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    position: center;
+
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+    
+    
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+}
+
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #1d202e;
+    font-size: 19px;
+    position: relative;
+    padding-right: 120px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+nav img{
+    width: 230px;
+    height: auto;
+    position: relative;
     float: left;
-    padding-left: 220px;
-    padding-top: 29px;
+    padding-left: 20px;
+    padding-top: 0px;
+    transition: 0.6s;
 }
 
-#bild{
+.box{
+    height: 863px;
+    width: 830px;
+    padding-left: 40px;
+    background-color: #64bff76b;
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    padding-left: 850px;
+}
+
+.border{
+    height: 864px;
+    width: 200%;
+    padding-left: 40px;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    padding-left: 850px;
+    border-bottom: solid #096FAE 5px;
+}
+
+
+
+
+
+
+
+.bakgrund{
     background: url(/survey-1594962_1920.jpg) no-repeat 0 -100px;
-    min-height: 830px;
-    border-bottom: solid #096FAE 4px;
+    min-height: 790px;
+    transform: scale(1.1);
     margin-left: 0;
-    
+    z-index: -2;
+    filter: blur(3px);
     
 }
 
 
 
-#bild h1{
-    float: left;
-    font-size: 40px;
-    line-height: 25px;
-    padding-top: 175px;
-    background-color: #64bff717;
-    padding-bottom: 8%;
-    padding-right: 140px;
-    padding-left: 140px;
-    color: #252525;
-    margin-top: 0;
+#bild .slideshow{
+  font-weight: bold;
+  position: absolute;
+  top: 43%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  float: left;
+  font-size: 40px;
+  line-height: 25px;
+  padding-top: 175px;
+  padding-bottom: 8%;
+  padding-right: 140px;
+  padding-left: 140px;
+  color: #252525;
+  
+  
     
 }
 .highlight{
     color: #096FAE;
 }
 
-li a:hover{
-    color: #096FAE;
+nav ul li a:hover{
+    color: #169EF3;
+    letter-spacing: 3px;
+
 }
 
-.high{
-    font-size: 27px;
-    color: #252525c0;
+
+
+nav.sticky{
+    padding: 30px 100px;
+    background-color: #f8f8ff;  
+    
 }
+nav.sticky ul li a{
+color: #252525;
+
+}
+nav.sticky ul li a:hover{
+    color: #169EF3;
+    letter-spacing: 3px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+
+.prev, .next{
+    
+}
+

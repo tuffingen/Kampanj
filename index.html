@@ -8,11 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
-<header>
-<body>
+<body>    
     <div class="navbar"></div>
     <nav>
-    <div class="logo"><a href="#1"><img src="logo.png" alt=""></div>
+    <a href="#1" class="logo"><img src="logo.png" alt=""></div>
         <ul>
             <li><a href="#1">Home</a></li>
             <li><a href="#2">Description</a></li>
@@ -20,19 +19,90 @@
             <li><a href="#4">FAQ</a></li>
         </ul>
     </nav>
-</div>
-</header>  
+
+<section class="banner">
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY >0);
+    })
+</script>
+</section>
 <section id= "bild">
-    <h1>
+    
+<div class="bakgrund"></div>
+ <div class="slideshow-container">
+    <div class="slideshow">
         <p>"<span class="highlight">Democracy</span> is about voting,</p>
         <p>and it's about a</p>
         <p>majority vote.</p> 
         <p>And it's time that</p>
         <p>we started exercising</p>
         <p>the democratic process."</p>
-        <p><span class=high>-Debbie Stabenow</span></p>
+        <p class="namn">-Debbie Stabenow</p>
+    </div>
+
+    <div class="slideshow">
+        <p>"We all have to vote</p>
+        <p>like our lives and the</p>
+        <p>world depend on it,</p> 
+        <p>because they do.</p>
+        <p>The only way to be certain</p>
+        <p>of the future is to make it ourselves."</p>
+        <p class="namn">-Billie Eilish</p>
+    </div>
+
+    <div class="slideshow">
+        <p>"We all have to vote</p>
+        <p>like our lives and the</p>
+        <p>world depend on it,</p> 
+        <p>because they do.</p>
+        <p>The only way to be certain</p>
+        <p>of the future is to make it ourselves."</p>
+        <p class="namn">-Billie Eilish</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>  
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
     
+    <div class="box"></div>
+    <div class="border"></div>
+    </section> 
+<main>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+    <p>and it's about a</p>
+    <p>majority vote.</p> 
+    <p>And it's time that</p>
+
+</main>
 </body>
 </html>
 
-</section> 
