@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     padding: 0;
+    min-height: 200vh;
 
 }
 nav{
@@ -89,7 +90,7 @@ nav img{
 
 
 .bakgrund{
-    background: url(/survey-1594962_1920.jpg) no-repeat 0 -100px;
+    background: url(survey-1594962_1920.jpg) no-repeat 0 -100px;
     min-height: 790px;
     transform: scale(1.1);
     margin-left: 0;
