@@ -9,6 +9,8 @@ body{
 
 }
 main{
+    width: 80%;
+    margin: 0 auto;
     
 }
 nav{
@@ -219,9 +221,26 @@ nav.sticky ul li a:hover{
     }
     .box{
         height: 1210px;
+        width: 1000px
     }
     .border{
-        height: 1210px;
+        height: 1212px;
     }
-    
+
+    nav ul{
+        padding-right: 500px;
+    }
+    nav ul li{
+        padding-right: 120px;
+    }
+    #bild .slideshow{
+        font-size: 50px;
+        padding-top: 220px;
+    }
+    .sektion form{
+        padding-right: 125px;
+    }
+       nav img{
+           padding-left: 30px;
+       }
 }
