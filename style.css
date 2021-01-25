@@ -68,7 +68,7 @@ nav img{
 }
 
 .box{
-    height: 1332px;
+    height: 1372px;
     width: 1600px;
     padding-left: 40px;
     background-color: #64bff750;
@@ -80,29 +80,16 @@ nav img{
     padding-bottom: 0;
 }
 
-.border{
-    height: 1335px;
-    width: 200%;
-    padding-left: 40px;
-    background-color: transparent;
-    z-index: 1;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 31%;
-    padding-left: 850px;
-    border-bottom: solid #096FAE 6px;
-    padding-bottom: 0;
-}
 
 
 .bakgrund{
-    background: url(survey-1594962_1920.jpg) no-repeat 0 -230px ;
-    height: 1020px;
+    background: url(Namnlost-1.jpg) no-repeat 0 -230px ;
+    min-height: 1000px;
     transform: scale(1.1);
     z-index: -2;
-    filter: blur(3.5px);
     background-size: cover;
     width: 100%;
+    border-bottom: solid 5px #096FAE;
 }
 
 
@@ -171,7 +158,7 @@ nav.sticky ul li a:hover{
 .sektion h1{
     padding-top: 95px;
     padding-left: 45%;
-  
+    
   
     
 }
@@ -216,16 +203,12 @@ nav.sticky ul li a:hover{
 }
 
 @media (max-width: 1920px){
-    .bakgrund{
-        height: 900px;
-    }
+    
     .box{
-        height: 1210px;
-        width: 1000px
+        height: 1091px;
+        margin: 0;
     }
-    .border{
-        height: 1212px;
-    }
+
 
     nav ul{
         padding-right: 500px;
@@ -243,4 +226,5 @@ nav.sticky ul li a:hover{
        nav img{
            padding-left: 30px;
        }
+        
 }
