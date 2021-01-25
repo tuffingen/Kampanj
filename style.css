@@ -102,6 +102,7 @@ nav img{
     z-index: -2;
     filter: blur(3.5px);
     background-size: cover;
+    width: 100%;
 }
 
 
@@ -114,12 +115,11 @@ nav img{
   transform: translate(-50%, -50%);
   z-index: 2;
   float: left;
-  font-size: 56px;
+  font-size: 61px;
   line-height: 25px;
-  padding-top: 175px;
+  padding-top: 195px;
   padding-bottom: 8%;
-  
-  padding-left: 370px;
+  padding-left: 430px;
   color: #252525;
   
   
