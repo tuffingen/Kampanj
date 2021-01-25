@@ -63,7 +63,7 @@ nav img{
 }
 
 .box{
-    height: 850px;
+    height: 910px;
     width: 830px;
     padding-left: 40px;
     background-color: #64bff76b;
@@ -75,7 +75,7 @@ nav img{
 }
 
 .border{
-    height: 850px;
+    height: 910px;
     width: 200%;
     padding-left: 40px;
     background-color: transparent;
@@ -115,7 +115,7 @@ nav img{
   float: left;
   font-size: 40px;
   line-height: 25px;
-  padding-top: 175px;
+  padding-top: 260px;
   padding-bottom: 8%;
   padding-right: 140px;
   padding-left: 140px;
