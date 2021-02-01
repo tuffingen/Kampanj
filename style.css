@@ -67,51 +67,18 @@ nav img{
     transition: 0.6s;
 }
 
-.box{
-<<<<<<< HEAD
-    height: 910px;
-    width: 830px;
-=======
-    height: 1332px;
-    width: 1600px;
->>>>>>> 7b7ff043f521b10922b74d0d4f9502e3ceb24393
-    padding-left: 40px;
-    background-color: #64bff750;
-    z-index: 1;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 31%;
-    padding-left: 850px;
-    padding-bottom: 0;
-}
 
-.border{
-<<<<<<< HEAD
-    height: 910px;
-=======
-    height: 1335px;
->>>>>>> 7b7ff043f521b10922b74d0d4f9502e3ceb24393
-    width: 200%;
-    padding-left: 40px;
-    background-color: transparent;
-    z-index: 1;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 31%;
-    padding-left: 850px;
-    border-bottom: solid #096FAE 6px;
-    padding-bottom: 0;
-}
+
 
 
 .bakgrund{
-    background: url(survey-1594962_1920.jpg) no-repeat 0 -230px ;
+    background: url(/bakkrond.jpg) no-repeat 0 -230px ;
     height: 1020px;
     transform: scale(1.1);
     z-index: -2;
-    filter: blur(3.5px);
     background-size: cover;
     width: 100%;
+    border-bottom:#096FAE solid 5px;
 }
 
 
@@ -126,11 +93,7 @@ nav img{
   float: left;
   font-size: 61px;
   line-height: 25px;
-<<<<<<< HEAD
   padding-top: 260px;
-=======
-  padding-top: 195px;
->>>>>>> 7b7ff043f521b10922b74d0d4f9502e3ceb24393
   padding-bottom: 8%;
   padding-left: 430px;
   color: #252525;
@@ -141,6 +104,7 @@ nav img{
 .highlight{
     color: #096FAE;
 }
+
 .namn{
     font-size: 30px;
     color:#2525259d;
@@ -230,30 +194,37 @@ nav.sticky ul li a:hover{
 
 @media (max-width: 1920px){
     .bakgrund{
-        height: 900px;
-    }
-    .box{
-        height: 1210px;
-        width: 1000px
-    }
-    .border{
-        height: 1212px;
+        background: url(/bakkrond.jpg) ;
+        height: 520px;
+        background-size: cover;
+        transform: scale(1.1);
+        
     }
 
-    nav ul{
-        padding-right: 500px;
-    }
     nav ul li{
-        padding-right: 120px;
+    padding-right: 90px;
+    
     }
     #bild .slideshow{
-        font-size: 50px;
+        font-size: 28px;
         padding-top: 220px;
+        padding-left: 300px;
     }
+    #bild .namn{
+        font-size: 23px;
+    }
+
     .sektion form{
         padding-right: 125px;
     }
-       nav img{
+    nav img{
            padding-left: 30px;
+           width: 170px;
        }
-}
+    }
+    nav ul li a{
+    font-size: 14px;
+    }
+   nav{
+       height: 30px;
+   }
