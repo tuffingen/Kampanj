@@ -67,6 +67,7 @@ nav img{
     transition: 0.6s;
 }
 
+<<<<<<< HEAD
 .box{
     height: 1372px;
     width: 1600px;
@@ -79,17 +80,29 @@ nav img{
     padding-left: 850px;
     padding-bottom: 0;
 }
+=======
+
+>>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
 
 
 
 .bakgrund{
+<<<<<<< HEAD
     background: url(Namnlost-1.jpg) no-repeat 0 -230px ;
     min-height: 1000px;
+=======
+    background: url(/bakkrond.jpg) no-repeat 0 -230px ;
+    height: 1020px;
+>>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
     transform: scale(1.1);
     z-index: -2;
     background-size: cover;
     width: 100%;
+<<<<<<< HEAD
     border-bottom: solid 5px #096FAE;
+=======
+    border-bottom:#096FAE solid 5px;
+>>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
 }
 
 
@@ -104,7 +117,7 @@ nav img{
   float: left;
   font-size: 61px;
   line-height: 25px;
-  padding-top: 195px;
+  padding-top: 260px;
   padding-bottom: 8%;
   padding-left: 430px;
   color: #252525;
@@ -115,6 +128,7 @@ nav img{
 .highlight{
     color: #096FAE;
 }
+
 .namn{
     font-size: 30px;
     color:#2525259d;
@@ -203,6 +217,7 @@ nav.sticky ul li a:hover{
 }
 
 @media (max-width: 1920px){
+<<<<<<< HEAD
     
     .box{
         height: 1091px;
@@ -213,18 +228,45 @@ nav.sticky ul li a:hover{
     nav ul{
         padding-right: 500px;
     }
+=======
+    .bakgrund{
+        background: url(/bakkrond.jpg) ;
+        height: 520px;
+        background-size: cover;
+        transform: scale(1.1);
+        
+    }
+
+>>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
     nav ul li{
-        padding-right: 120px;
+    padding-right: 90px;
+    
     }
     #bild .slideshow{
-        font-size: 50px;
+        font-size: 28px;
         padding-top: 220px;
+        padding-left: 300px;
     }
+    #bild .namn{
+        font-size: 23px;
+    }
+
     .sektion form{
         padding-right: 125px;
     }
-       nav img{
+    nav img{
            padding-left: 30px;
+           width: 170px;
        }
+<<<<<<< HEAD
         
 }
+=======
+    }
+    nav ul li a{
+    font-size: 14px;
+    }
+   nav{
+       height: 30px;
+   }
+>>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
