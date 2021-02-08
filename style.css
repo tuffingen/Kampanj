@@ -334,3 +334,10 @@ nav.sticky ul li a:hover{
        font-weight: bolder;
        
    }
+
+   .bakgrund2{
+    background: url(pexels-andrea-piacquadio-3775128.jpg) no-repeat 0px -610px;
+    min-height: 400px;
+    background-size: cover;
+    border-bottom: #096FAE 3px solid;
+   }
