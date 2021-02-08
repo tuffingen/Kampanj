@@ -257,7 +257,47 @@ nav.sticky ul li a:hover{
     
 }
 
+@media (max-width: 1920px){
+    .bakgrund{
+        background: url(/bakkrond.jpg) ;
+        height: 32.5rem;
+        background-size: cover;
+        transform: scale(1.1);
+        
+    }
+    nav ul li a{
+        font-size: 5px;
+    }
 
+    nav ul li{
+    padding-right: 60px;
+    
+    }
+    #bild .slideshow{
+        font-size: 25px;
+        padding-top: 240px;
+        padding-left: 271px;
+    }
+    #bild .namn{
+        font-size: 23px;
+    }
+
+    .sektion form{
+        padding-right: 125px;
+    }
+    nav img{
+           padding-left: 30px;
+           width: 170px;
+       }
+    nav{
+        height: 10px;
+    }
+    nav .sticky{
+        height: 25px;
+    }
+    
+    
+}
 
 
 
