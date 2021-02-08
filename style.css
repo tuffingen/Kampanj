@@ -260,23 +260,24 @@ nav.sticky ul li a:hover{
 @media (max-width: 1920px){
     .bakgrund{
         background: url(/bakkrond.jpg) ;
-        height: 32.5rem;
+        height: 56.5rem;
         background-size: cover;
         transform: scale(1.1);
         
     }
     nav ul li a{
-        font-size: 5px;
+        font-size: 18px;
     }
 
     nav ul li{
-    padding-right: 60px;
+    padding-right: 140px;
+    
     
     }
     #bild .slideshow{
-        font-size: 25px;
+        font-size: 45px;
         padding-top: 240px;
-        padding-left: 271px;
+        padding-left: 291px;
     }
     #bild .namn{
         font-size: 23px;
@@ -287,13 +288,23 @@ nav.sticky ul li a:hover{
     }
     nav img{
            padding-left: 30px;
-           width: 170px;
+           width: 200px;
+           
        }
     nav{
-        height: 10px;
+        height: 30px;
     }
     nav .sticky{
         height: 25px;
+    }
+    .mål{
+        font-size: 85%;
+        float: left;
+        padding-left: 20px;
+    }
+    .sträck{
+        height: 145px;
+        
     }
     
     
