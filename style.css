@@ -1,13 +1,24 @@
 
-body{
+body.a1{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     padding: 0;
-    min-height: 200vh;
+    min-height: 140vh;
     overflow-x: hidden;
     background-color:  #f8f8ff;
 
 }
+
+body.a2{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    min-height: 110vh;
+    overflow-x: hidden;
+    background-color:  #f8f8ff;
+
+}
+
 main{
     width: 80%;
     margin: 0 auto;
@@ -22,8 +33,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 40px 100px;
+    padding: 50px 100px;
     z-index: 100000;
+    
+    
   
     
 }
@@ -37,6 +50,7 @@ nav ul {
     
     
     
+    
 }
 
 nav ul li{
@@ -47,13 +61,15 @@ nav ul li{
     padding-left: 20px;
     letter-spacing: 1px;
     transition: 0.2s;
+   
+    
 }
 
 nav ul li a{
     position: relative;
     text-decoration: none;
     color: #1d202e;
-    font-size: 21px;
+    font-size: 1.2rem;
 
 }
 
@@ -67,42 +83,17 @@ nav img{
     transition: 0.6s;
 }
 
-<<<<<<< HEAD
-.box{
-    height: 1372px;
-    width: 1600px;
-    padding-left: 40px;
-    background-color: #64bff750;
-    z-index: 1;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 31%;
-    padding-left: 850px;
-    padding-bottom: 0;
-}
-=======
-
->>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
 
 
 
 .bakgrund{
-<<<<<<< HEAD
-    background: url(Namnlost-1.jpg) no-repeat 0 -230px ;
-    min-height: 1000px;
-=======
     background: url(/bakkrond.jpg) no-repeat 0 -230px ;
     height: 1020px;
->>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
     transform: scale(1.1);
     z-index: -2;
     background-size: cover;
     width: 100%;
-<<<<<<< HEAD
-    border-bottom: solid 5px #096FAE;
-=======
     border-bottom:#096FAE solid 5px;
->>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
 }
 
 
@@ -115,7 +106,7 @@ nav img{
   transform: translate(-50%, -50%);
   z-index: 2;
   float: left;
-  font-size: 61px;
+  font-size: 3.8125rem;
   line-height: 25px;
   padding-top: 260px;
   padding-bottom: 8%;
@@ -144,7 +135,7 @@ nav ul li a:hover{
 
 
 nav.sticky{
-    padding: 25px 100px;
+    padding: 40px 100px;
     background-color: #f8f8ff;  
     box-shadow: 10px 5px 20px #8888882f;
     
@@ -177,23 +168,27 @@ nav.sticky ul li a:hover{
     
 }
 
-.mål{
-    padding-left: 400px;
-    padding-top: 200px;
+
+.mål h1{
+    font-weight: 100;
     
 }
 
-.sträck{
-    height: 200px;
-    width: 20px;
-    background-color: #096FAE;
-    margin-left: 900px;
-    
-    
-   
+
+.mål {
+    padding-top: 170px;
+    padding-left: 150px;
 }
-.mål h1{
-    font-weight: 100;
+
+
+  
+
+.sträck{
+    border-right: #169ef391 2px solid;
+    width: 700px;
+    height: 170px;
+    transition: 0.2s;
+
 }
 
 .sektion form {
@@ -216,34 +211,25 @@ nav.sticky ul li a:hover{
     color: #f8f8ff;
 }
 
-@media (max-width: 1920px){
-<<<<<<< HEAD
-    
-    .box{
-        height: 1091px;
-        margin: 0;
-    }
 
 
-    nav ul{
-        padding-right: 500px;
-    }
-=======
+
+
+@media (max-width: 1280px){
     .bakgrund{
         background: url(/bakkrond.jpg) ;
-        height: 520px;
+        height: 32.5rem;
         background-size: cover;
         transform: scale(1.1);
         
     }
 
->>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
     nav ul li{
     padding-right: 90px;
     
     }
     #bild .slideshow{
-        font-size: 28px;
+    
         padding-top: 220px;
         padding-left: 300px;
     }
@@ -258,15 +244,34 @@ nav.sticky ul li a:hover{
            padding-left: 30px;
            width: 170px;
        }
-<<<<<<< HEAD
-        
-}
-=======
     }
-    nav ul li a{
-    font-size: 14px;
-    }
+    
    nav{
        height: 30px;
    }
->>>>>>> 80c70c112e0a5ecfdbacfbc89db17e2e056da521
+
+   .bakgrund1{
+       background: url(/sunset-5238044_1920.jpg) no-repeat 0 -200px;
+       min-height: 400px;
+       background-size: cover;
+       border-bottom: #096FAE 3px solid;
+   }
+   .des{
+       padding-left: 400px;
+       padding-right: 700px;
+       padding-top: 200px;
+   }
+   .des h1{
+        color: #252525;
+   }
+
+   .des p{
+       font-size: 23px;
+       font-weight: 500;
+       color: #252525;
+   }
+   p .hl{
+       color: #096FAE;
+       font-weight: bolder;
+       
+   }
