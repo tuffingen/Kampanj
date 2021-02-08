@@ -87,7 +87,7 @@ nav img{
 
 
 .bakgrund{
-    background: url(/img/bakkrond.jpg) no-repeat 0 -230px ;
+    background: url(img/bakkrond.jpg) no-repeat 0 -230px ;
     height: 1020px;
     transform: scale(1.1);
     z-index: -2;
@@ -217,7 +217,7 @@ nav.sticky ul li a:hover{
 
 @media (max-width: 1280px){
     .bakgrund{
-        background: url(/img/bakkrond.jpg) ;
+        background: url(img/bakkrond.jpg) ;
         height: 32.5rem;
         background-size: cover;
         transform: scale(1.1);
@@ -259,7 +259,7 @@ nav.sticky ul li a:hover{
 
 @media (max-width: 1920px){
     .bakgrund{
-        background: url(/img/bakkrond.jpg) ;
+        background: url(img/bakkrond.jpg) ;
         height: 56.5rem;
         background-size: cover;
         transform: scale(1.1);
@@ -310,7 +310,7 @@ nav.sticky ul li a:hover{
 }
 
    .bakgrund1{
-       background: url(/img/sunset-5238044_1920.jpg) no-repeat 0 -200px;
+       background: url(img/sunset-5238044_1920.jpg) no-repeat 0 -200px;
        min-height: 400px;
        background-size: cover;
        border-bottom: #096FAE 3px solid;
