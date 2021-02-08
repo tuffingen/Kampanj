@@ -223,15 +223,18 @@ nav.sticky ul li a:hover{
         transform: scale(1.1);
         
     }
+    nav ul li a{
+        font-size: 15px;
+    }
 
     nav ul li{
-    padding-right: 90px;
+    padding-right: 60px;
     
     }
     #bild .slideshow{
-    
-        padding-top: 220px;
-        padding-left: 300px;
+        font-size: 25px;
+        padding-top: 240px;
+        padding-left: 270px;
     }
     #bild .namn{
         font-size: 23px;
@@ -244,11 +247,16 @@ nav.sticky ul li a:hover{
            padding-left: 30px;
            width: 170px;
        }
+    nav{
+        height: 10px;
+    }
+    nav .sticky{
+        height: 25px;
     }
     
-   nav{
-       height: 30px;
-   }
+    
+}
+
 
    .bakgrund1{
        background: url(/sunset-5238044_1920.jpg) no-repeat 0 -200px;
