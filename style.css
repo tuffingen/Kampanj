@@ -260,7 +260,7 @@ nav.sticky ul li a:hover{
 @media (max-width: 1920px){
     .bakgrund{
         background: url(bakkrond.jpg) ;
-        height: 56.5rem;
+        height: 50.5rem;
         background-size: cover;
         transform: scale(1.1);
         
@@ -341,3 +341,50 @@ nav.sticky ul li a:hover{
     background-size: cover;
     border-bottom: #096FAE 3px solid;
    }
+
+   .abot{
+         padding-left: 400px;
+         padding-right: 700px;
+         padding-top: 200px;
+   }
+
+   .abot p{
+    font-size: 23px;
+    font-weight: 500;
+    color: #252525;
+    line-height: 16px;
+   }
+
+   .abot h1{
+    color: #252525;
+   }
+   
+
+   .bakgrund3{
+    background: url(/pexels-nathan-cowley-920036.jpg) no-repeat 0px -410px;
+    min-height: 400px;
+    background-size: cover;
+    border-bottom: #096FAE 3px solid;
+   }
+
+   .faq{
+    font-size: 23px;
+    font-weight: 500;
+    color: #252525;
+    padding-right: 1200px;
+    padding-top: 100px;
+    padding-left: 200px;
+   }
+
+
+   ul li{list-style: none;}
+
+    .answ{
+       font-size: 18px;
+       font-weight: lighter;
+       color: #096fae9c;
+       padding-left: 60px;
+
+   }
+
+   
